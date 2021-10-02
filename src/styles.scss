@@ -1,0 +1,20 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+.card{
+  margin-bottom: 2rem;
+}
+.card.liked{
+  background-color: #fff6f6;
+  .btn.liked{
+    background-color: rgb(216, 55, 55);
+    color:white;
+  }
+}
+.card.disliked{
+  background-color:#ffeb3b14;
+  .btn.disliked{
+    background-color: rgb(223, 223, 69);
+  }
+}
